@@ -1,0 +1,16 @@
+units metal
+
+read_data lammps_data.lmp
+
+pair_style lcbop
+pair_coeff * * C.lcbop C C
+
+variable etol equal 0.0
+variable ftol equal 1e-8
+variable maxiter equal 1000
+variable maxeval equal 100000
+
+min_style cg
+minimize ${etol} ${ftol} ${maxiter} ${maxeval}
+
+write_data min.lmp

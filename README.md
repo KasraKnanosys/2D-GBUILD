@@ -15,13 +15,13 @@ This file contains the codes and user manual for the Grain Boundary Generation o
 
 - Write another data file with the grain boundary and boundary atoms only (gb_data.lmp)
 
-in.min:
+## in.min:
 
 - Simple LAMMPS script to run energy minimization of the created graphene structure with LCBOP potential.
 
 - Write the minimized structure in LAMMPS format (min.lmp).
 
-ovito_data_extract_poly.py:
+## ovito_data_extract_poly.py:
 
 - It can extract the atom id from the ‘gb_data.lmp’ file and then extract the position (x and y) values of the atoms for only GB atoms.
 
@@ -37,7 +37,7 @@ ovito_data_extract_poly.py:
 
 - It also edited the ‘atom_data_GB.txt’ file with the new positional coordinate of the moved atoms.
 
-identify_penta_hepta_poly.py:
+##  identify_penta_hepta_poly.py:
 
 - First, a graph is created using the Python networkx module. Then, from the ‘atom_data_GB.txt’ file, the nodes and edges of the graph are created by using the GB atoms' positions (x, y) as the nodes' positions and bonds as edges.
 
@@ -131,7 +131,7 @@ ovito_data_extract.py:
 
 - Then it writes the atom IDs in a text file named ‘_same_atom.dat_’.
 
-type_assign.py:
+## type_assign.py:
 
 - This code takes the ‘same_atom.dat’ as input.
 

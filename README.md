@@ -95,7 +95,7 @@ This file contains the codes and user manual for the Grain Boundary Generation o
 
   
 
-**BiCrystal Code:**
+# **BiCrystal Code:**
 
 ## in.min:
 

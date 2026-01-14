@@ -103,7 +103,7 @@ This file contains the codes and user manual for the Grain Boundary Generation o
 
 - Write the minimized structure in LAMMPS format (min.lmp).
 
-ovito_data_extract.py:
+## ovito_data_extract.py:
 
 - This module prepares the data file for the conversion of tilted graphene structures to $WSe_2$ or hBN structures (mono-elemental to bi-elemental).
 

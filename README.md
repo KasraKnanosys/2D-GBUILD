@@ -139,7 +139,7 @@ ovito_data_extract.py:
 
 - After setting type for all the atoms, it generates two LAMMPS data files, one is the hBN structure and another one is the corresponding $WSe_2$ GB structure in LAMMPS input data format. These two structures are exact conversions of the graphene structure, with the same type of defect and the same number of GBs. These outputs can be changed by the user to create other TMDs of the same space group and graphene-like materials.
 
-**Mirror GBs:**
+## **Mirror GBs:**
 
 - Defined the unit cell using ASE library (Python module)
 

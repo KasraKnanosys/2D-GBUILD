@@ -154,3 +154,9 @@ This file contains the codes and user manual for the Grain Boundary Generation o
 - Added atoms to supercell_L and supercell_R to create the specified defect at the boundary. First, the atoms near the GB boundary for both supercells were identified, then the alternate extra atoms were added, i.e., if the existing atom is ‘Se’, then we added ‘W’ and vice versa. The number of added atoms is determined from the number of tetragons in the defective structure’s unit cell.
 
 - Stitch the original and mirrored structures together, adding atoms, and create the final structure.
+
+## License
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)

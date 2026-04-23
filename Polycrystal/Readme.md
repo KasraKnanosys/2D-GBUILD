@@ -1,5 +1,5 @@
 
-Author: Nuruzzaman Sakib and Md Rashidul Alam, University of Alabama, USA
+Author: Nuruzzaman Sakib, University of Alabama, USA
 This file describes how PolyGen.sh works, what the user must modify, and
 all possible error messages.
 
